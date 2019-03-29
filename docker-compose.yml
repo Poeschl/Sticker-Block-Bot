@@ -1,0 +1,10 @@
+version: '3.6'
+
+services:
+
+  bot:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    container_name: sticker-block-bot
+    image: stickerblockbot
