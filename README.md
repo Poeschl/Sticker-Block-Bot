@@ -12,3 +12,7 @@ class Secrets:
     def telegram_token(self):
         return '<your telegram bot token>'
 ```
+
+_Note2:_
+
+The bot needs to have the rights to delete messages in a group :sweat: and the bot privacy mode needs to be disabled to recieve group messages.
